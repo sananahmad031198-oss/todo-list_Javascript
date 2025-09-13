@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+#task {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+
+#list {
+	list-style: none;
+	padding: 0;
+}
+
+#list li {
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#list li:hover {
+	background-color: #e0e0e0;
+	cursor: pointer;
+}
+
+#list li:last-child {
+	margin-bottom: 0;
+}
